@@ -1,0 +1,35 @@
+.profile-edit-container {
+	display: flex;
+	flex-basis: 30%;
+}
+
+.profile-edit-fieldset {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: stretch;
+}
+
+.profile-edit-podnaslov {
+    font-size: 24px;
+    text-align: center;
+}
+
+.profile-edit-forma {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-edit-forma .p-float-label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+	.profile-edit-container {
+        flex-basis: 100%;
+		margin: 5px;
+    }
+}

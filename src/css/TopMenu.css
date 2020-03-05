@@ -1,0 +1,38 @@
+.topmenu {
+    margin: 5px;   
+    margin-bottom: 10px;
+}
+
+.topmenu-desktop {
+    display: block;
+}
+
+.topmenu-mobile {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .topmenu-desktop {
+        display: none;
+    }
+    
+    .topmenu-mobile {
+        display: block;
+    }
+}
+
+.p-menubar-custom {
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.topmenu-naslov {
+    font-family: 'Changa One', cursive;
+    font-size: 22px;
+    
+}
+.topmenu-text {
+    font-size: 16px;
+    
+}

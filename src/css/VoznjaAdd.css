@@ -1,0 +1,67 @@
+.voznja-add-container {
+	display: flex;
+	flex-basis: 40%;
+}
+
+.voznja-add-fieldset {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: stretch;
+}
+
+.voznja-add-podnaslov {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.voznja-add-podpodnaslov {
+    font-size: 18px;
+    text-align: left;
+    margin: 10px;
+}
+
+.voznja-add-forma {
+    display: flex;
+    flex-direction: column;
+}
+.voznja-add-forma-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: stretch;
+    margin: 10px;
+}
+
+.polazno-destinacija {
+    width: 40%
+}
+
+.polazno-destinacija-dash {
+    font-size: 20px;
+}
+
+.voznja-add-forma .p-float-label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.voznja-add-prtljag-div {
+    margin: 10px;
+}
+
+.voznja-add-prtljag {
+    margin: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+	.voznja-add-container {
+        flex-basis: 100%;
+		margin: 5px;
+    }
+}
+
+#voznja-add-datum {
+    width: 60%;
+}

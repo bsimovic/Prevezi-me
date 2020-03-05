@@ -1,0 +1,45 @@
+.home-container {
+	display: flex;
+	flex-basis: 80%;	
+	text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+	.home-container {
+		margin: 5px;
+		flex-basis: 100%;
+	}
+}
+
+.home-fieldset {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	align-content: space-between;
+	align-items: center;
+}
+
+.home-podnaslov {
+	font-size: 40px;
+}
+
+.home-text {
+	margin: 20px;
+	flex-grow: 2;
+	font-size: 18px;
+}
+
+.home-registruj-button {
+	margin: 20px;
+}
+
+.home-fieldset .p-button-text {
+	font-size: 24px;
+	margin: 0 40px 0 40px;
+}
+
+img {
+	width: 144px;
+	height: 256px;
+	margin: 2px;
+}

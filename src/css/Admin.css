@@ -1,0 +1,39 @@
+.admin-container {
+	display: flex;
+	flex-basis: 40%;	
+}
+
+@media only screen and (max-width: 1000px) {
+	.admin-container {
+		flex-basis: 100%;
+		margin: 5px;
+	}
+}
+
+.admin-fieldset {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: stretch;
+}
+
+.admin-podnaslov {
+    font-size: 24px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.admin-form .p-float-label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.admin-button {
+	margin-bottom: 20px;
+}
+
+.admin-form {
+    display: flex;
+    flex-direction: column;
+}

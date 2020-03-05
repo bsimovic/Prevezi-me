@@ -1,0 +1,70 @@
+.voznja-comp-container {
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 10px;
+}
+
+.voznja-comp-id {
+    flex-basis: 10%;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.voznja-comp-srcdst {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+    flex-basis: 90%;
+    padding-bottom: 5px;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+}
+
+.voznja-comp-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.voznja-comp-bottombottom {
+    display: flex;
+}
+
+.voznja-comp-pod {
+    display: flex;
+    flex-direction: column;
+}
+
+.voznja-comp-button {
+    margin-left: 10px;
+    width: 110px;
+    flex-basis: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+	.voznja-comp-bottom {
+        flex-direction: column;
+    }
+
+    .voznja-comp-pod {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.voznja-comp-vozac {
+    text-align: center;
+    font-size: 14px;
+}
+
+.voznja-comp-link {
+    color: blue;
+    cursor: pointer;
+}

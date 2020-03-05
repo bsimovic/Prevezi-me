@@ -1,0 +1,42 @@
+.voznja-edit-container {
+	display: flex;
+	flex-basis: 40%;
+}
+
+.voznja-edit-fieldset {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: stretch;
+}
+
+.voznja-edit-podnaslov {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.voznja-edit-podpodnaslov {
+    font-size: 18px;
+    text-align: left;
+    margin: 10px;
+}
+
+.voznja-edit-forma {
+    display: flex;
+    flex-direction: column;
+}
+
+.voznja-edit-forma .p-float-label {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+	.voznja-edit-container {
+        flex-basis: 100%;
+		margin: 5px;
+    }
+}
